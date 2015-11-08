@@ -134,7 +134,7 @@ public class ArticleController {
 	FacetedPage<Article> facet = elasticSearchTemplate.queryForPage(query, Article.class);
 	TermResult result = (TermResult)facet.getFacet(facetName);
 	logger.info("The result size  is  "+result.getTerms().size());	
-		return new ResponseEntity<String>("REsult count is "+result.getTerms().size(), HttpStatus.OK);
+		return new ResponseEntity<String>("Result count is "+result.getTerms().size(), HttpStatus.OK);
 	}
 	
 	@RequestMapping("/fauthor/filtered")
