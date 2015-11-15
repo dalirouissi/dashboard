@@ -33,6 +33,7 @@ public class Application {
     
     @Bean
     public Client client(){
+    	logger.info(" ----------------------    "+environment.getProperty("elasticsearch.host"));
     	TransportClient client = new TransportClient();
     	TransportAddress address = new InetSocketTransportAddress(
     			environment.getProperty("elasticsearch.host"), 
