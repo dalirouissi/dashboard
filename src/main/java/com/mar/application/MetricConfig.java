@@ -57,7 +57,8 @@ public class MetricConfig {
 	public CustomGaugeMetric gaugeMesures(GaugeService gaugeService) {
 		return new CustomGaugeMetric(gaugeService);
 	}
-
+	
+	
 	public static class CustomGaugeMetric {
 
 		private final GaugeService gaugeService;

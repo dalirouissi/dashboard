@@ -15,11 +15,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @ComponentScan("com")
 @EnableAutoConfiguration
 @EnableElasticsearchRepositories("com.mar.elasticsearch.repository")
+@EnableScheduling
 public class Application {
 	
 	@Resource
