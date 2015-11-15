@@ -6,3 +6,4 @@ http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#pr
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-graphite-on-an-ubuntu-14-04-server
 
 #youtube video to understand what is moniotring spring boot and what is spring-starter actuator dependency.
+https://www.youtube.com/watch?v=Qzjs18pJQeU 
