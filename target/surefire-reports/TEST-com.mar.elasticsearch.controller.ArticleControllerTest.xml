@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mar.elasticsearch.controller.ArticleControllerTest" time="6.638" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="com.mar.elasticsearch.controller.ArticleControllerTest" time="4.166" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -61,8 +61,8 @@
     <property name="org.slf4j.simpleLogger.showThreadName" value="false"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="findArticleByIdTest_ArticleNotFound" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="4.835"/>
-  <testcase name="findArticleByIdTest_ArticlePathError" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="0.284"/>
-  <testcase name="saveArticle_Success" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="1.044"/>
-  <testcase name="findArticleByIdTest_Success" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="0.475"/>
+  <testcase name="findArticleByIdTest_ArticleNotFound" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="2.333"/>
+  <testcase name="findArticleByIdTest_ArticlePathError" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="0.268"/>
+  <testcase name="saveArticle_Success" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="0.978"/>
+  <testcase name="findArticleByIdTest_Success" classname="com.mar.elasticsearch.controller.ArticleControllerTest" time="0.587"/>
 </testsuite>
